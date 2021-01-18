@@ -65,7 +65,6 @@
 
 	  $name = json_decode(json_decode($leagueData));
 	  
-
 	  return $name->{"api"}->{"leagues"}[0]->{"name"};
 
 

@@ -29,17 +29,25 @@ switch ($request) {
         require __DIR__ . '/views/index.php';
         break;
 
-    case $root . "?championshipId=" . $_GET["championshipId"];
 
-        seeOneChampionship($_GET["championshipId"]);
+    case $root . 'game' :
+
+        require __DIR__ . '/views/templates/onegame.php';
+
         break;
+
+    //case $root . "?championshipId=" . $_GET["championshipId"];
+
+        //seeOneChampionship($_GET["championshipId"]);
+
+        //break;
     
 
-    case $root . "?championshipId=" . $_GET['championshipId'] . '&gameId=' . $_GET['gameId'];
+    //case $root . "?championshipId=" . $_GET['championshipId'] . '&gameId=' . $_GET['gameId'];
 
-        seeOneGame($_GET['gameId']);
+        //seeOneGame($_GET['gameId']);
 
-       break;
+       //break;
       
               
     default:

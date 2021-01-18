@@ -6,6 +6,9 @@
 
 
 function seeOneChampionship($championshipId){
+
+
+  /*
      
     //I WANT TO AVOID API CALLS. SO I'LL MINIMIZE ANY CALL I CAN.
     
@@ -14,6 +17,9 @@ function seeOneChampionship($championshipId){
     $currentWeek = json_decode(json_decode(getCurrentWeek($championshipId)))->{"api"}->{"fixtures"}[0];
     
     $weeklyGames = getWeeklyGames($championshipId, $currentWeek); 
+
+
+    */
 
     require(' ../../views/templates/allGames.php');
 
@@ -32,7 +38,6 @@ function seeOneGame($gameId){
    echo $game;
 
 
-  */
 
   
 
@@ -285,7 +290,8 @@ function seeOneGame($gameId){
 
 
   
-   
+     */
+
 
       require(' ../../views/templates/oneGame.php');
 

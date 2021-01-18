@@ -13,7 +13,7 @@
 <h3>Semaine : <span id='weekSpan'></span> </h3>
 
 
-<h3>Liste des matchs de <?php echo $championshipName ?></h3> 
+<h3>Liste des matchs de <?php //echo $championshipName ?></h3> 
 
 
 <h5>Games</h5>
@@ -26,9 +26,9 @@
 
 
 <script>
-    
+    /*
 
-    var dir = "http://localhost/bettingguru" + "?championshipId=" + "<?php echo $championshipId ?>";
+    var dir = "http://localhost/bettingguru" + "?championshipId=" + "<?php //echo $championshipId ?>";
 
 
     var gameListDiv = document.getElementById('gameListDiv');
@@ -36,9 +36,9 @@
 
     var weekSpan = document.getElementById('weekSpan');
 
-    //var currentWeek = JSON.parse(<?php echo $currentWeek ?>);
+    //var currentWeek = JSON.parse(<?php //echo $currentWeek ?>);
 
-    var currentGames =  JSON.parse(<?php echo $weeklyGames ?>).api.fixtures;
+    var currentGames =  JSON.parse(<?php //echo $weeklyGames ?>).api.fixtures;
 
     console.log(currentGames);
 
@@ -80,6 +80,6 @@
     //weekSpan.innerHTML = currentWeek;
 
 
-
+*/
 </script>
 
