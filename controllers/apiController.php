@@ -24,7 +24,7 @@
 		CURLOPT_CUSTOMREQUEST => "GET",
 		CURLOPT_HTTPHEADER => [
 			"x-rapidapi-host: api-football-v1.p.rapidapi.com",
-			"x-rapidapi-key: a64d65cffcmshb9b72d000354454p121090jsnde30cf70170c"
+	    	"x-rapidapi-key: 86be37b210mshdb1682c7f064a83p1b8cdejsn9cb56"
 		],
 	]);
 	
